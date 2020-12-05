@@ -15,6 +15,10 @@ body {
 	font-family: '"Inconsolata"',monospace;
 }
 
+h1, h2, h3, h4, h5, h6, p, a {
+    color: #0D1E2D;
+}
+
 
 #menu{
 	width: 35px;
@@ -120,6 +124,7 @@ body {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     margin-left: 3rem;
+    padding: 5px;
 }
 
 .code {
@@ -152,6 +157,13 @@ body {
     transform-box: fill-box;
 }
 
+#Comp-guy {
+    animation: comp 1s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
 @keyframes head {
     from {
         transform: translateY(0%);
@@ -163,10 +175,10 @@ body {
 
 @keyframes cup {
     from {
-        transform: translateX(0%);
+        transform: translateY(0%);
     }
     to {
-        transform: translateX(5%);
+        transform: translateY(5%);
     }
 }
 
@@ -179,36 +191,68 @@ body {
     }
 }
 
+@keyframes comp {
+    from {
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(2%);
+    }
+}
 
 /* About-Area Style */
-.about-area h2{
+.about-area {
     position: absolute;
-    top: 25%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    /* margin-left: .1rem; */
-}
-
-
-.about-area ul{
-    position: absolute;
-    top: 35%;
-    left: 60%;
+    top: 30%;
+    left: 62%;
     margin-right: -40%;
     transform: translate(-50%, -50%);
-    /* margin-left: .1rem; */
+    /* background-color: black;
+    color: white; */
 }
 
+
+.title {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+
 .info li{
-    margin: 1em;
+    margin: 1.5em;
+    list-style: none;
 }
 
 .first-block {
     font-weight: bold;
+    color: #0D1E2D;
 }
 
-.about-area ul li a {
-    text-decoration: none;
+
+.content {
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    margin-right: -40%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 300px;
 }
 
+.content h2, p, h3 {
+    margin: 2rem;
+}
+
+.title2 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.content p {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.got {
+    font-weight: normal;
+}
