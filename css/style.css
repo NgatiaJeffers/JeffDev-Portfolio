@@ -115,17 +115,17 @@ h1, h2, h3, h4, h5, h6, p, a {
 #particles-js {
     background-color: #fff;
     height: 100vh;
-    background-position: 50% 50%;
-    position: relative;
+    /* background-position: 50% 50%;
+    position: relative; */
       
 }
 
 
-
+/* 
 .container {
-    /* background-color: #b2cfe9; */
+    background-color: #b2cfe9;
     height: 100vh;
-}
+} */
 
 .logo {
     /* float: left; */
