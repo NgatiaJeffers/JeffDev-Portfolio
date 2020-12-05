@@ -111,6 +111,17 @@ h1, h2, h3, h4, h5, h6, p, a {
 	display: block;
 }
 
+/* Particle Js */
+#particles-js {
+    background-color: #fff;
+    height: 100vh;
+    background-position: 50% 50%;
+    position: relative;
+      
+}
+
+
+
 .container {
     /* background-color: #b2cfe9; */
     height: 100vh;
@@ -199,6 +210,8 @@ h1, h2, h3, h4, h5, h6, p, a {
         transform: translateY(2%);
     }
 }
+
+
 
 /* About-Area Style */
 .about-area {
