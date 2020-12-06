@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6, p, a {
     display: flex;
     align-items: center;
     min-height: 100vh;
-    /* background: #0D1E2D; */
+    background: #0D1E2D;
     justify-content: space-around;
 }
 
@@ -343,4 +343,68 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 .container .card:hover .face.face2 {
     transform: translateY(0) rotateX(0deg);
+}
+
+.container1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.container1 .card1 {
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: #0D1E2D;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgb(13, 30, 45, 0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.container1 .card1:hover {
+    height: 420px;
+}
+
+.container1 .card1 .imagep {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 5px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgb(13, 30, 45, 0.5);
+}
+
+.container1 .card1 .imagep img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.container1 .card1 .project-content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.project-content h2, p {
+    color: #fff;
+}
+
+.container1 .card1:hover .project-content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
 }
