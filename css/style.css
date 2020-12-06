@@ -331,6 +331,10 @@ h1, h2, h3, h4, h5, h6, p, a {
     background: #b2cfe9;
 }
 
+.face-content p {
+    color: #0D1E2D;
+}
+
 .container .card .face.face2 {
     background: #fff;
     display: flex;
