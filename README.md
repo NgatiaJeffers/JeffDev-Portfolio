@@ -20,3 +20,5 @@ JeffDev Email: jeffersongakuya@gmail.com
 ### License
 No Licence issued. modify it at your own cost
 Copyright (c) 2020 **JeffDev**
+
+Licensed under the [MIT license](LICENSE).
