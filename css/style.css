@@ -523,3 +523,68 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 
 /* 😀😀😀😀HAPPY CODING!😀😀😀 */
+
+/*😀 Media Queries 😀*/
+@media screen and (max-width: 800px) {
+    .logo {
+        position: absolute;
+        top: 5%;
+        left: 40%;
+        margin-right: -60%;
+        transform: translate(-50%, -50%);
+        margin-left: 3rem;
+        padding: 5px;
+    }
+
+    .code {
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        margin-right: -60%;
+        transform: translate(-50%, -50%);
+        margin-left: 2.5rem; 
+    }
+
+    .code svg {
+        height: 200px;
+        width: 200px;
+    }
+
+    .about-area {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        margin-right: -50%;
+        height: 200px;
+        width: 300px;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .about-area .title .info {
+        font-size: 15px;
+    }
+
+    .content {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        margin-right: -50%;
+        height: 200px;
+        width: 300px;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+        background: #0D1E2D;
+        justify-content: space-around;
+    }
+}
