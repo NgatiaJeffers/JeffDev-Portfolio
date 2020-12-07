@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: white;
 	font-family: '"Inconsolata"',monospace;
@@ -519,6 +523,20 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 .container3 .contact-form .form .input-box input[type="submit"]:hover {
     background-color: #b2cfe9;
+}
+
+.pageup {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #0D1E2D;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 22px;
 }
 
 
