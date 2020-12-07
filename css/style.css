@@ -418,10 +418,10 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 .container3 {
     position: relative;
-    background-image: url('./img/if.jpg');
+/*     background-image: url('./img/if.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
-/*     background: #0D1E2D; */
+    background-repeat: no-repeat; */
+    background: #0D1E2D;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
